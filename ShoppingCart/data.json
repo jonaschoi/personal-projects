@@ -1,0 +1,73 @@
+items : {
+[
+  [
+	  {
+		'quantities':1,
+		'items':'book',
+		'prices':12.49,
+		'taxable':false,
+		'imported':false
+	  },
+	  {
+		'quantities':1,
+		'items':'music CD',
+		'prices':14.99,
+		'taxable':true,
+		'imported':false
+	  },
+	  {
+		'quantities':1,
+		'items':'chocolate bar',
+		'prices':0.85,
+		'taxable':false,
+		'imported':false
+	  }
+  ],
+  [
+     {
+		'quantities':1,
+		'items':'imported box of chocolates',
+		'prices':10.00,
+		'taxable':false,
+		'imported':true
+	  },
+	  {
+		'quantities':1,
+		'items':'imported bottle of perfume',
+		'prices':47.50,
+		'taxable':true,
+		'imported':true
+	  }
+  ],
+  [      
+      {
+		'quantities':1,
+		'items':'imported bottle of perfume',
+		'prices':27.99,
+		'taxable':true,
+		'imported':true
+	  },
+      {
+		'quantities':1,
+		'items':'bottle of perfume',
+		'prices':18.99,
+		'taxable':true,
+		'imported':false
+	  },
+      {
+		'quantities':1,
+		'items':'headache pills',
+		'prices':9.75,
+		'taxable':false,
+		'imported':false
+	  },
+      {
+		'quantities':1,
+		'items':'box of imported chocolates',
+		'prices':11.25,
+		'taxable':false,
+		'imported':true
+	  }	  	  	  	    
+  ]
+]  
+}        
