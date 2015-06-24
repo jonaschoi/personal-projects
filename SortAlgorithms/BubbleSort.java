@@ -1,4 +1,4 @@
-/**
+package SortAlgorithms; /**
  * Created by liferay on 2015-06-09.
  */
 
