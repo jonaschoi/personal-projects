@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FCBCFV App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_screen">Menu Screen</string>
+    <string name="title_activity_attendance_form">Attendance</string>
+    <string name="title_menu">Applications</string>
+    <string name="title_activity_roadmap_content">Roadmap Content</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_attendance_view">Attendance Lists</string>
+    <string name="default_user">test</string>
+    <string name="default_password">test</string>
+</resources>

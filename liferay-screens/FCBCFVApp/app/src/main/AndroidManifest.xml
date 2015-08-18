@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.fcbcfv.fcbcfvapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/title_activity_menu_screen"
+            android:parentActivityName=".LoginScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fcbcfv.fcbcfvapp.LoginScreen" />
+        </activity>
+        <activity
+            android:name=".AttendanceForm"
+            android:label="@string/title_activity_attendance_form"
+            android:parentActivityName=".MenuScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fcbcfv.fcbcfvapp.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".RoadmapContent"
+            android:label="@string/title_activity_roadmap_content"
+            android:parentActivityName=".MenuScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fcbcfv.fcbcfvapp.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".AttendanceView"
+            android:label="@string/title_activity_attendance_view"
+            android:parentActivityName=".MenuScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fcbcfv.fcbcfvapp.MenuScreen" />
+        </activity>
+    </application>
+
+</manifest>
