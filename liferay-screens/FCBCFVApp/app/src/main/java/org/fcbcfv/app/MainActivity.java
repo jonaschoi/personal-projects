@@ -1,4 +1,4 @@
-package org.fcbcfv.fcbcfvapp;
+package org.fcbcfv.app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,17 +11,19 @@ import com.liferay.mobile.screens.auth.login.LoginListener;
 import com.liferay.mobile.screens.auth.login.LoginScreenlet;
 import com.liferay.mobile.screens.context.User;
 
+import org.fcbcfv.fcbcfvapp.R;
+
 /**
  * @author Jonas Choi
  */
 
-public class LoginScreen extends AppCompatActivity implements LoginListener {
+public class MainActivity extends AppCompatActivity implements LoginListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_login_screen);
+        setContentView(R.layout.acitivty_main);
 
         LoginScreenlet loginScreenlet =
                 (LoginScreenlet) findViewById(R.id.login_default);
@@ -57,7 +59,7 @@ public class LoginScreen extends AppCompatActivity implements LoginListener {
 
         System.out.println("Login is OK: " + user.getAttributes());
 
-        startActivity(new Intent(this, MenuScreen.class));
+        startActivity(new Intent(this, RoadmapContent.class));
     }
 
     @Override
